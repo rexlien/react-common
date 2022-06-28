@@ -13,3 +13,6 @@ export * from './Component/HTTPReferenceField'
 export * from './Component/WithPopup'
 export * from './Component/ReactJsonEditor'
 
+export * from './Data/JsonDataServerAxios'
+export * from './Data/JsonDataServerV2'
+
