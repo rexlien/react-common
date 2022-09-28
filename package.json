@@ -1,7 +1,7 @@
 {
   "name": "xln-react",
   "version": "0.1.2",
-  "peerDependencies": {
+  "dependencies": {
     "@date-io/date-fns": "^1.3.9",
     "@date-io/moment": "^1.3.9",
     "@json-editor/json-editor": "^1.4.0-beta.0",
