@@ -11,7 +11,6 @@ import {
     DELETE,
     DELETE_MANY,
 } from 'react-admin';
-import JsonDataServerAxios from "../../esm/Data/JsonDataServerAxios";
 const axios = require("axios");
 
 /**
