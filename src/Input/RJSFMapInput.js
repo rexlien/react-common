@@ -4,6 +4,7 @@ import Form from "@rjsf/material-ui";
 
 
 class RJSFMapInput_ extends Component {
+
     onChange(event, error) {
         const {label, record, input, meta, source} = this.props;
 
@@ -35,9 +36,11 @@ class RJSFMapInput_ extends Component {
             }
         };
 
+        const onChange = this.props.formOnChange? this.props.formOnChange.bind(this):this.onChange.bind(this)
+
         return (
             <Form schema={MapScheme}
-                  onChange={this.onChange.bind(this)}
+                  onChange={onChange}//{this.onChange.bind(this)}
                   formData={jsonValue}
 
             >
