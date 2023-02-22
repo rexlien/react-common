@@ -24,6 +24,8 @@ class RJSFMapInput_ extends Component {
             }
         } catch (ex) {
             jsonValue = {}
+            input.onChange(jsonValue)
+            input.onBlur()
             console.info(ex)
         }
 
